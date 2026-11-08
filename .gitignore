@@ -1,0 +1,21 @@
+# local rule files may contain real patterns / internal hints
+local-rules.json
+my-rules.json
+*.local.json
+
+# scrub backup copies
+*.bak
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# editors
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
